@@ -1,0 +1,3 @@
+schtasks /create /tn "DeleteVirusTask" /tr "C:\Path\To\DeleteVirus.exe" /sc minute /mo 20 /ru "SYSTEM"
+
+
